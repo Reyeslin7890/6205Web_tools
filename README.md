@@ -1,5 +1,9 @@
 # INFO6205Web_tools
 
+#Author Jin Lin
+
+
+
 Assignments are about web applications.
 
 Explores advanced server-side technologies and tools necessary to design and engineer complete web-based enterprise applications
