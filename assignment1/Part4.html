@@ -1,0 +1,244 @@
+<?xml version="1.0" ? >
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN"
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html>
+	<h1>PETITION FORM</h1>
+	<fieldset>
+	Follow the instructions on the next page. Use <b>fillable pdf</b> or PRINT CLEARLY to ensure your writing is legible. You
+must provide <b><u>all</u></b> required supporting documents before a final decision is made on your petition.<br/> 
+	</fieldset><br/>
+	
+	<form action="petitionform.asp" method="post">
+		<fieldset>
+			<legend>Basic Information</legend>
+			<table>
+				<tr>
+					<td>NU ID</td>
+					<td><input type="text" name="txtnuid" value="" size="10" maxlength="9"/></td>
+				</tr>
+				<tr>
+					<td>Current Program/Concentration </td>
+					<td><input type="text" name="txtcurprog" value="" size="50" maxlength="100"/></td>
+				</tr>
+			</table>
+			<table>				
+				<td>Name：</td>
+				<tr>					
+					<td></td>
+					<td>Last or Family Name</td>
+					<td><input type="text" name="txtlastname" value="" size="20" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>First or Given Name</td>
+					<td><input type="text" name="txtfirstname" value="" size="20" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Middle Name</td>
+					<td><input type="text" name="txtmiddlename" value="" size="20" maxlength="100"/></td>
+				</tr>
+			</table>
+			<table>
+				<td>Address:</td>	
+				<tr>
+					<td></td>
+					<td>Street</td>
+					<td><input type="text" name="txtstreet" value="" size="20" maxlength="50"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>City</td>
+					<td><input type="text" name="txtcity" value="" size="20" maxlength="50"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>State</td>
+					<td><input type="text" name="txtstate" value="" size="10" maxlength="2"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Zip Code</td>
+					<td><input type="text" name="txtzipcode" value="" size="10" maxlength="5"/></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td>Phone</td>
+					<td><input type="text" name="txtphone" value="" size="10" maxlength="10"/><br/></td>
+				</tr>
+				<tr>
+					<td>Husky E-Mail </td>
+					<td><input type="text" name="txtemail" value="" size="50" maxlength="100"/>@husky.neu.edu</td>
+				</tr>
+			</table>
+			 
+			<table>
+				<td>Current Degree Level:</td>
+				<tr>	
+					<td></td>
+					<td> <input type="radio" name="Degreeset" value = "MS"/ > </td >
+					<td> <label for="MS"> MS</label> </td>
+					<td> <input type="radio" name="nationset" value = "International"/ > </td >
+					<td> <label for="International"> International</label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="radio" name="Degreeset" value = "PhD"/ > </td >
+					<td> <label for="PhD"> PhD </label> </td>
+					<td> <input type="radio" name="nationset" value = "Domestic"/ > </td >
+					<td> <label for="Domestic"> Domestic </label> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="radio" name="Degreeset" value = "Certificate Only"/ > </td >
+					<td> <label for="Certificate Only"> Certificate Only </label> </td>								
+				</tr>	
+				<tr>
+					<td></td>
+					<td> <input type="radio" name="Degreeset" value = "Special Student"/ > </td >
+					<td> <label for="Special Student"> Special Student </label> </td>							
+				</tr>								
+			</table>
+		</fieldset>
+		<br/>
+		<fieldset>
+			<table>
+				<td>Check all that apply:</td>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Elective outside core curriculum"/ > </td >
+					<td> <label for="Elective outside core curriculum"> Elective outside core curriculum </label> </td>	
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Core course waive"/ > </td >
+					<td> <label for="Core course waive"> Core course waive </label> </td>	
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Change in status"/ > </td >
+					<td> <label for="Change in status"> Change in status </label> </td>	
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Course repeat/official substitution"/ > </td >
+					<td> <label for="Course repeat/official substitution"> Course repeat/official substitution </label> </td>	
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Extension of time limit to program completion"/ > </td >
+					<td> <label for="Extension of time limit to program completion"> Extension of time limit to program completion </label> </td>	
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="checkbox" name="check" value = "Other (specify):"/ > </td >
+					<td> <label for="Other (specify):"> Other (specify): </label> </td>						
+				</tr>
+				<tr>
+					<td></td><td></td>
+					<td>
+						<textarea name="txtother" id="other" cols="50" rows="5" > </textarea >
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td>1.</td>
+					<td>For each course concerned, please provide the information below:</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<table border="3" cellpadding = "30">
+							<tr>
+								<th>Course Name</th>
+								<th>Term</th>								
+								<th>CRN #</th>
+								<th>Course #</th>
+								<th># Credits</th>
+							</tr>
+							<tr>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>								
+							</tr>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>
+								<td><div contenteditable></div></td>							
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>What are you petitioning? Please explain (attach separate sheet if necessary):</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><textarea name="txtpetition" id="petition" cols="120" rows="15" > </textarea ></td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>Student signature:<input type="text" name="txtsignature" value="" size="50" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Date:<input type="date" name="txtsignature"/></td>
+				</tr>
+			</table>
+		</fieldset>
+		<br/>
+		<fieldset>
+			<legend><b>SUBMIT PETITION AND ANY SUPPORTING DOCUMENTS TO YOUR PROGRAM ADVISOR</b></legend>
+			<b><i>Program Advisor</i></b><br/><br/>
+			Recommendation:	
+				<input type="checkbox" name="rec" value = "Approved"/ >Approved
+				<input type="checkbox" name="rec" value = "Denied"/ >Denied	<br/>
+			<table>
+				<tr>
+					<td>Signature</td>
+					<td><input type="text" name="txtproname" value="" size="48" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td>Print Name</td>
+					<td><input type="text" name="txtproprintname" value="" size="48" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td>Advisor's comments and/or instructions</td>
+					<td><textarea name="txtcomments" id="comments" cols="50" rows="5"></textarea></td>
+					<td>Date</td>
+					<td><input type="date" name="commentdate"/></td>
+				</tr>
+				<tr>
+					<td>ECE Graduate Committee Chair 
+					(ECE students only)</td>
+					<td><textarea name="txtEGCs" id="EGC" cols="50" rows="5"></textarea></td>
+					<td>Date</td>
+					<td><input type="date" name="egcdate"/></td>
+				</tr>
+			</table>
+		</fieldset>
+		<br/>
+		<fieldset>
+			<b><i>Graduate School</i></b>
+			<input type="checkbox" name="grad" value = "Approved"/ >Approved
+			<input type="checkbox" name="grad" value = "Denied"/ >Denied
+			<input type="checkbox" name="grad" value = "No Action"/ >No Action
+			<input type="checkbox" name="grad" value = "Returned for additional information"/ >Returned for additional information
+			<input type="checkbox" name="grad" value = "ASC Report filed"/ >ASC Report filed	<br/><br/>
+			Comments to student:
+			<textarea name="txtcommentstostu" id="commentstostu" cols="50" rows="5"></textarea> <br/><br/>
+			Graduate school authorization 
+			<input type="text" name="authorization" value="" size="50" maxlength="50"/>
+			Date
+			<input type="date" name="authorizationdate"/>
+			Effective Term
+			<input type="text" name="effectiveterm" value="" size="20" maxlength="20"/>
+			
+		</fieldset>
+	</form>
+</html>

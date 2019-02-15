@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+   <user>
+      <firstname>Henry</firstname>
+      <lastname>Thierry</lastname>
+      <userid>101</userid>
+   </user>
+   <user>
+      <firstname>Aaron</firstname>
+      <lastname>Ramsey</lastname>
+      <userid>102</userid>
+   </user>   
+</users>

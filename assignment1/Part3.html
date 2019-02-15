@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>New Elements</title>
+		<style>
+			myStyle {
+				padding: 50px;
+				font-size: 30px;
+				display: block;
+				background-color: #ab3;
+				
+			}
+		</style> 
+	</head>
+	 
+	<body>	 
+		<h1>New Elements</h1>	 
+		<myStyle>
+			<form action="keygen.asp" method="get">
+				Username: <input type="text" name="usr_name">
+				Encrypt: <keygen name="security">
+				<input type="submit" value="submit">
+			</form>
+		</myStyle><br/><br/>
+
+		Colors:
+		<form>
+			<input list="Colors"> 
+			<datalist id="Colors">
+			  <option value="Red">
+			  <option value="Green">
+			  <option value="Purple">
+			  <option value="Black">
+			  <option value="Yellow">
+			</datalist>	 <br/><br/>
+		</form>
+		Calculation:
+		<form oninput="tot.value=parseInt(x.value)*parseInt(y.value)">0
+			<input type="range" id="x" value="50">100 *
+			<input type="number" id="y" value="32767">=
+			<output name="tot" for="a b" ></output>
+		</form>
+		
+	</body>
+</html>

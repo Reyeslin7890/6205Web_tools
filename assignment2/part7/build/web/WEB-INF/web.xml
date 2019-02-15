@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>Shop</servlet-name>
+		<servlet-class>Shopping.Shop</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Shop</servlet-name>
+		<url-pattern>/shop.do</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout> 30 </session-timeout>
+	</session-config>
+</web-app>
